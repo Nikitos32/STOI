@@ -1,0 +1,21 @@
+.button {
+    background: none;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttonWithBorder {
+    color: #e6ede9;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background: #c32439;
+    border: 1px solid black;
+}
+
+.buttonWithBorder:hover {
+    box-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,5 @@
+.mainSectionWrapper {
+    display: flex;
+    flex-direction: column;
+    background: #d2ddd8;
+}

@@ -1,3 +1,19 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+    user-select: none;
 }
+
+.headerWrapper {
+    z-index: 999999999;
+    color: #e6ede9;
+    background: #4b666e;
+    position: sticky;
+    top: 0;
+}
+
+

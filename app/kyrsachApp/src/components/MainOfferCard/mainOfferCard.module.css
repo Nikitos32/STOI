@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4b666e;
+    color: #e6ede9;
+    border-radius: 10px;
+    gap: 20px;
+    width: 270px;
+    height: 150px;
+}
+
+.description {
+    width: 150px;
+    text-align: center;
+}
+
+.wrapperContentCard {
+    height: 80px;
+    backdrop-filter: brightness(0.4);
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}

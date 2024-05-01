@@ -1,0 +1,13 @@
+.input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::-webkit-input-placeholder {
+    color: #e6ede9;
+}

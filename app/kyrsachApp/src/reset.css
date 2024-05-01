@@ -2,9 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial;
+    width: 100%;
 }
 
 p {
     margin: 0;
     padding: 0;
+    cursor: default;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
 }

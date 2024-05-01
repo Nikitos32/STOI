@@ -1,0 +1,13 @@
+.cardSection {
+    display: flex;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.offerSectionTitle {
+    padding: 40px;
+    color: #122034;
+    font-size: 32px;
+}
