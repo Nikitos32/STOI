@@ -1,0 +1,30 @@
+
+.labelRegistration {
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.registrationCard {
+    backdrop-filter: brightness(0.8) blur(20px);
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    margin: 0 auto;
+    width: 600px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registrationWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("/public/img/auth.jpg");
+    background-size: cover;
+    flex: 1 0 auto;
+}

@@ -1,0 +1,31 @@
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnEnter {
+    background: #c32439;
+    color: #e6ede9;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.btnEnter:hover {
+    box-shadow: 1px 1px 1px black;
+}

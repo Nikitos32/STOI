@@ -1,0 +1,90 @@
+.accountCardWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background: #e6ede9;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.accountImageWrapper {
+    height: 40%;
+    width: 100%;
+    background: url("/public/png/profile.png");
+    background-size: cover;
+    border-bottom: 1px solid black;
+}
+
+.accountInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    flex: 1 0 auto;
+}
+
+.leaveBtn {
+    align-self: flex-end;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #c32439;
+    color: #e6ede9;
+    height: 30px;
+}
+
+.leaveBtn:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+.usernameWrapper {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-self: center;
+}
+
+.btnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.inputAccountWrapper {
+    gap: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.editBtn {
+    border: 1px solid black;
+    width: 42px;
+    border-radius: 7px;
+    cursor: pointer;
+    background: #c32439;
+    color: #e6ede9;
+    height: 20px;
+}
+
+.editInput {
+    outline: none;
+    width: 100%;
+    background: none;
+    border: none;
+}

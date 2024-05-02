@@ -1,0 +1,38 @@
+.accountPageWrapper {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #d2ddd8;
+}
+
+.requestsBoard {
+    background: #dc7928;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.ordersBoard {
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    background: #c32439;
+    width: 400px;
+    flex: 1 0 auto;
+}
+
+.boardsWrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accountPage {
+    display: flex;
+    gap: 50px;
+}
