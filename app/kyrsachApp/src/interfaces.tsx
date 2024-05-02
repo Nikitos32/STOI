@@ -9,5 +9,7 @@ export interface ButtonProps {
 
 export interface CardProps {
     text: string,
-    picture: string
+    picture: string,
+    mainPrice: number,
+    secondaryPrice: number,
 }

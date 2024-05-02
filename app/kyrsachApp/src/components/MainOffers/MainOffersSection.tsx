@@ -6,9 +6,9 @@ export const MainOffersSection = () => {
         <>
             <p className={classes.offerSectionTitle}>Наши самые лучшие скидки</p>
             <div className={classes.cardSection}>
-                <CardMainOffer picture='1offer' text='Глубокая чистка жилых помещений'/>
-                <CardMainOffer picture='2offer' text='Офисная уборка'/>
-                <CardMainOffer picture='3offer' text='Послестроительная уборка'/>
+                <CardMainOffer picture='1offer' mainPrice={99} secondaryPrice={48} text='Глубокая чистка жилых помещений'/>
+                <CardMainOffer picture='2offer' mainPrice={89} secondaryPrice={32} text='Офисная уборка'/>
+                <CardMainOffer picture='3offer' mainPrice={65} secondaryPrice={30} text='Послестроительная уборка'/>
             </div>
         </>
     )

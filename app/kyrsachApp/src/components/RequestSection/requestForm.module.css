@@ -1,0 +1,31 @@
+.formWrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 40px;
+}
+
+.textContent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text28 {
+    font-size: 28px;
+}
+
+.formBtn:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+
+.mapSectionTitle {
+    padding: 40px;
+    color: #122034;
+    font-size: 32px;
+}

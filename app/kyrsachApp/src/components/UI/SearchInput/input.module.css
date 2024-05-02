@@ -2,6 +2,8 @@
     background: none;
     border: none;
     border-bottom: 1px solid black;
+    transition: all ease-in-out 0.2s;
+    color: #e6ede9;
 }
 
 .input:focus {
@@ -10,4 +12,8 @@
 
 .input::-webkit-input-placeholder {
     color: #e6ede9;
+}
+
+.input:focus {
+    padding-bottom: 5px;
 }

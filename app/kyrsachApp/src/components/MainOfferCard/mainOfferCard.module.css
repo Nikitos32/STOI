@@ -9,6 +9,13 @@
     gap: 20px;
     width: 270px;
     height: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 15px black;
 }
 
 .description {
@@ -17,7 +24,7 @@
 }
 
 .wrapperContentCard {
-    height: 80px;
+    height: 100px;
     backdrop-filter: brightness(0.4);
     display: flex;
     padding: 5px;
@@ -26,4 +33,21 @@
     align-items: center;
     gap: 10px;
     justify-content: center;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.lineThorough {
+    text-decoration: line-through;
+}
+
+.secondaryPrice {
+    font-size: 16px;
+    color: red;
+    font-weight: 900;
 }

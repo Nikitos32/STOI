@@ -4,6 +4,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .offerSectionTitle {

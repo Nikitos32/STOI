@@ -1,0 +1,29 @@
+.requestForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.select {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.textarea {
+    resize: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+}
+
+
+.formBtn {
+    cursor: pointer;
+    background: #c32439;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    color: #e6ede9;
+}

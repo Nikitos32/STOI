@@ -1,0 +1,32 @@
+.footerWrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerText {
+    color: #e6ede9;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #e6ede9;
+
+}
+
+.footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #4b666e;
+}

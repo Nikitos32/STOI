@@ -1,0 +1,29 @@
+.mapSectionTitle {
+    padding: 40px;
+    color: #122034;
+    font-size: 32px;
+}
+
+.textContent {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.mapTitle {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.mapWrapper {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
