@@ -1,6 +1,10 @@
+import React from "react";
+
 export interface InputProps {
     type: string,
-    placeholder: string
+    placeholder: string,
+    handle?: (e: React.ChangeEvent<HTMLInputElement>) => void,
+    value?: string
 }
 
 export interface ButtonProps {
@@ -12,4 +16,11 @@ export interface CardProps {
     picture: string,
     mainPrice: number,
     secondaryPrice: number,
+}
+
+export interface User {
+    username: string,
+    password: string,
+    email,
+    role: number
 }

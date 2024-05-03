@@ -1,18 +1,18 @@
 import {FC, useState} from "react";
-import classes from "./registrationPage.module.css"
 import {RegistrationCard} from "../RegistrationCard/RegistrationCard";
 import {AccountPage} from "../AccountPage/AccountPage";
 
 export const RegistrationPage: FC = () => {
     const [userLogIn, setUser] = useState<boolean>(false);
 
-    if (localStorage.getItem('userReg')) {
+    const handleReg = () => {
         setUser(true);
     }
 
     return (
         <>
-            {userLogIn ? <AccountPage/> : <RegistrationCard/>}
+            {userLogIn || sessionStorage.getItem('user') ?
+                <AccountPage user={JSON.parse(sessionStorage.getItem('user'))} /> : <RegistrationCard handle={handleReg}/>}
         </>
     )
 }
