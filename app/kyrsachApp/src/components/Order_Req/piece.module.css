@@ -1,6 +1,5 @@
 .pieceWrapper {
     cursor: pointer;
-    width: 90%;
     min-height: 50px;
     background: #d2ddd8;
     border-radius: 15px;
@@ -12,6 +11,7 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .pieceWrapper:hover {

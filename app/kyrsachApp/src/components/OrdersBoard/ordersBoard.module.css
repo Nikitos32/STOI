@@ -23,3 +23,23 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.wrapperPiece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.deleteBtn {
+    background: #e6ede9;
+    color: #c32439;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
