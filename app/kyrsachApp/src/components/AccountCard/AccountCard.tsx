@@ -3,10 +3,11 @@ import {User} from "../../interfaces";
 import React, {Ref, useState} from "react";
 
 interface AccountCardProps {
-    user: User
+    user: User,
+    leave: () => void
 }
 
-export const AccountCard = ({ user }: AccountCardProps) => {
+export const AccountCard = ({ user, leave }: AccountCardProps) => {
     const [password, setPassword] = useState<string>('');
     const [email, setEmail] = useState<string>('');
     const [passwordVisible, setPasswordVisibility] = useState<boolean>(false);
@@ -86,7 +87,7 @@ export const AccountCard = ({ user }: AccountCardProps) => {
                     </div>
                 </div>
                 <div className={classes.btnWrapper}>
-                    <button className={classes.leaveBtn}>Leave</button>
+                    <button onClick={() => leave()} className={classes.leaveBtn}>Leave</button>
                 </div>
             </div>
         </div>

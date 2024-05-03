@@ -6,8 +6,8 @@ export const HeaderNavbar = () => {
         <div className={classes.headerNavbar}>
             <p><NavLink to="/">Главная</NavLink></p>
             <p><NavLink to="/catalog">Каталог</NavLink></p>
-            <p><a href="/bucket">Корзина</a></p>
-            <p><a href="/account">Аккаунт</a></p>
+            <p><NavLink to="/bucket">Корзина</NavLink></p>
+            <p><NavLink to="/account">Аккаунт</NavLink></p>
         </div>
     )
 }

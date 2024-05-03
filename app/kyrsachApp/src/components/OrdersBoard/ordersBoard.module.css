@@ -1,0 +1,25 @@
+.ordersBoard {
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    background: #c32439;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    color: #e6ede9;
+    overflow-y: auto;
+}
+
+.titleOrder {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.wrapperOrders {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
