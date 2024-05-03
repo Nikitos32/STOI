@@ -24,3 +24,9 @@ export interface User {
     email,
     role: number
 }
+
+export interface Order {
+    id: number,
+    descr: string,
+    price: string
+}

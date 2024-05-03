@@ -7,6 +7,7 @@ import {BrowserRouter} from "react-router-dom";
 import {Route, Routes} from "react-router";
 import {RegistrationPage} from "./components/RegistrationPage/RegistrationPage";
 import {BucketPage} from "./components/BucketPage/BucketPage";
+import {Map} from "./components/Map/Map";
 
 export default function App() {
     return (
@@ -15,7 +16,7 @@ export default function App() {
                 <Header/>
                 <Routes>
                     <Route element={<MainPage/>} path='/'/>
-                    <Route element={<CatalogPage/>} path='/catalog'/>
+                    <Route element={<CatalogPage/>} path='/catalog/*'/>
                     <Route element={<BucketPage/>} path='/bucket'/>
                     <Route element={<RegistrationPage/>} path='/account'/>
                 </Routes>

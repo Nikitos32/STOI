@@ -1,13 +1,13 @@
 import classes from "./headerNavbar.module.css";
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 export const HeaderNavbar = () => {
     return (
         <div className={classes.headerNavbar}>
-            <p><NavLink to="/">Главная</NavLink></p>
-            <p><NavLink to="/catalog">Каталог</NavLink></p>
-            <p><NavLink to="/bucket">Корзина</NavLink></p>
-            <p><NavLink to="/account">Аккаунт</NavLink></p>
+            <p><Link to="/">Главная</Link></p>
+            <p><Link to="/catalog">Каталог</Link></p>
+            <p><Link to="/bucket">Корзина</Link></p>
+            <p><Link to="/account">Аккаунт</Link></p>
         </div>
     )
 }

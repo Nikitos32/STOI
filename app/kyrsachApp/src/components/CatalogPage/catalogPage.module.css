@@ -1,3 +1,55 @@
 .catalogWrapper {
-
+    display: flex;
+    flex: 1 0 auto;
+    background: #d2ddd8;
 }
+
+.catalogNavWrapper {
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 300px;
+}
+
+.titleNavBar {
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.catalogNav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 100%;
+    padding: 20px;
+}
+
+.navInput {
+    background: #c32439;
+    color: #e6ede9;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    border: 1px solid black;
+    flex: 1 0 auto;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navInput:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+

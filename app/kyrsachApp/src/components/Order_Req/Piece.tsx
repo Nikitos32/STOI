@@ -1,12 +1,7 @@
 import classes from "./piece.module.css"
+import {Order} from "../../interfaces";
 
-interface PieceProps {
-    id: number,
-    descr: string,
-    price: string
-}
-
-export const Piece = ({ id, descr, price }:PieceProps) => {
+export const Piece = ({ id, descr, price }:Order) => {
     return (
         <div className={classes.pieceWrapper}>
             <p className={classes.orderNumber}>{id}</p>
